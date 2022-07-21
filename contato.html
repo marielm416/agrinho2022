@@ -1,0 +1,86 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Abandono Escolar</title>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+			<h1><a href="index.html"><img src="./img/logo2.png"></h1>
+			<div class="redes-sociais">
+				<ul>
+					<a href="https://www.facebook.com/"><img src="./img/rs_face.png"></a>
+					<a href="https://web.instagran.com"><img src="./img/rs_instagran.png"></a>
+					<a href="https://twitter.com"><img src="./img/rs_twiter.png"></a>
+					<a href="https://youtube.com"><img src="./img/rs_youtube.png"></a>
+					<a href="https://linkedin.com"><img src="./img/rs_linkedin.png"></a>
+					<a href="https://whatsapp.com"><img src="./img/rs_whatsapp.png"></a>
+				</ul>
+			</div>
+				<nav>
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="desenvolvimento.html">Desenvolvimento Humano</a></li>
+					<li><a href="educacao.html">Educação no Brasil</a></li>
+					<li><a href="basedados.html">Base de dados</a></li>
+					<li><a href="conclusao.html">Conclusão</a></li>
+				
+				</ul>
+				</nav>
+			</div>
+			</div>
+		</header>
+		<main>
+			<div class="texto">
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+		</div>
+		</main>
+		<section class="mapa">
+                <h3 class="titulo-principal">Onde nos encontrar?</h3>
+                <p>Terra boa de dar água na boca, centro do Paraná. Montanhas e águas cristalinas, este é o meu lugar.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28985.473159412006!2d-51.781386566923075!3d-24.75487468262912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ee96b1aa151235%3A0x84211e37264bcf0d!2sPitanga%2C%20PR%2C%2085200-000!5e0!3m2!1spt-BR!2sbr!4v1658277356036!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+		<footer>
+				<img src="./img/logo2branco.png">
+				<p class="copyright">&copy; Copyright Alunos SEED 2022</p>
+		</footer>
+	</body>
+</html>
